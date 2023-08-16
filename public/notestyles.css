@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1{
+    color : red ;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  form.delete-form {
+    display: inline;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
